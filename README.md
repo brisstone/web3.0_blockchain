@@ -4,7 +4,7 @@ Vite, Thaiwand css
 
 
 
-This App uses a smart contract that enables sending of ethereum between wallets using MetaMask wallet.
+This is a smart contract App that enables sending of ethereum between wallets using MetaMask wallet.
 
 ![Brisstore](/client/images/crypt.png)
 
