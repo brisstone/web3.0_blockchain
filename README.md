@@ -2,9 +2,10 @@
 Web 3.0 React Solidity Blockchain Application with Metamask
 Vite, Thaiwand css
 
+
+
+This App uses a smart contract that enables sending of ethereum between wallets using MetaMask wallet.
+
 ![Brisstore](/client/images/crypt.png)
-
-
-This App uses a smart contract that enables sending of ethereum between wallets.
 
 
