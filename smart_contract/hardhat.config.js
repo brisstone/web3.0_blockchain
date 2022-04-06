@@ -1,21 +1,22 @@
+//https:eth-ropsten.alchemyapi.io/v2/EORD1fZXCT_drIFBNg1WaNFY4RrG_RVL
+
 require("@nomiclabs/hardhat-waffle");
+//  plugin to build smart contract tests using Waffle in Hardhat, taking advantage of both.
 
-// This is a sample Hardhat task. To learn how to create your own go to
-// https://hardhat.org/guides/create-task.html
-task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
-  const accounts = await hre.ethers.getSigners();
+// This plugin adds a Hardhat-ready version of Waffle to the Hardhat Runtime Environment,
+// and automatically initializes the Waffle Chai matchers (opens new window).
 
-  for (const account of accounts) {
-    console.log(account.address);
-  }
-});
+// #
 
-// You need to export an object to set up your config
-// Go to https://hardhat.org/config/ to learn more
-
-/**
- * @type import('hardhat/config').HardhatUserConfig
- */
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.8.0",
+  networks: {
+    ropsten: {
+      url: "https://eth-ropsten.alchemyapi.io/v2/EORD1fZXCT_drIFBNg1WaNFY4RrG_RVL",
+      //Metamask Private key
+      accounts: [
+        "970047409121f3fde4d78afbc557b44e9b80329052e9db8a7180c78e15f918cc",
+      ],
+    },
+  },
 };
