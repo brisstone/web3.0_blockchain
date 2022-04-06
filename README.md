@@ -4,6 +4,4 @@ Vite, Thaiwand css
 
 ![Brisstore](/client/images/crypt.png)
 
-BlockChain (MongoDB, ExpressJS, React and Node.JS).
 
-## Demo Website
