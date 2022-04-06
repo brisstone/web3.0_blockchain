@@ -5,3 +5,6 @@ Vite, Thaiwand css
 ![Brisstore](/client/images/crypt.png)
 
 
+This App uses a smart contract that enables sending of ethereum between wallets.
+
+
